@@ -8,6 +8,7 @@ impfile = ""
 import sys, getopt
 
 ## From https://stackabuse.com/text-summarization-with-nltk-in-python/
+## NLTK install instructions are at https://www.nltk.org/
 
 scraped_data = urllib.request.urlopen(sys.argv[1])
 #scraped_data = urllib.request.urlopen('https://en.wikipedia.org/wiki/Artificial_intelligence')
